@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import backr from "../Assets/backr.jpg";
 import "../Style/first.css";
+import song from "../Assets/Ainalaiyn.mp3";
 
 export default function Section1() {
   return (
@@ -19,32 +20,40 @@ export default function Section1() {
 
 const PlayPauseButton = () => {
   const [isPlaying, setIsPlaying] = useState(false); // Track whether the music is playing
-  const audioRef = useRef(null); // Reference to the audio element
+  const audioRef = useRef(new Audio(song)); // Persist the Audio object across renders
 
   const togglePlayPause = () => {
-    if (isPlaying) {
-      audioRef.current.pause(); // Pause the music
+    const music = audioRef.current;
+
+    if (isPlaying == true) {
+      music.pause(); // Pause the music
     } else {
-      audioRef.current.play(); // Play the music
+      music.play(); // Play the music
     }
     setIsPlaying(!isPlaying); // Toggle play/pause state
   };
+
+  useEffect(() => {
+    const music = audioRef.current;
+
+    // Ensure music stops when the component unmounts
+    return () => {
+      music.pause();
+    };
+  }, []);
 
   return (
     <div>
       <button onClick={togglePlayPause}>
         {isPlaying ? "Әуенді Тоқтату" : "Әуенді Қосу"}
       </button>
-
-      {/* Hidden audio element */}
-      <audio ref={audioRef} src="../Assets/Ainalayin.m4a" />
     </div>
   );
 };
 
 const Timer = () => {
   // Set target date to December 24th at 00:00 AM
-  const targetDate = new Date("Dec 24, 2024 00:00:00").getTime();
+  const targetDate = new Date("Nov 24, 2024 00:00:00").getTime();
 
   // State to hold the remaining time
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
@@ -90,22 +99,30 @@ const Timer = () => {
   return (
     <div className="timer">
       <div className="elem">
-        <div className="big">{timeLeft.days}</div>
+        <div className="big">
+          <div className="space">{timeLeft.days}</div>
+        </div>
         <div className="small">дней</div>
       </div>
       <div className="big">:</div>
       <div className="elem">
-        <div className="big">{timeLeft.hours}</div>
+        <div className="big">
+          <div className="space">{timeLeft.hours}</div>
+        </div>
         <div className="small">часов</div>
       </div>
       <div className="big">:</div>
       <div className="elem">
-        <div className="big">{timeLeft.minutes}</div>
+        <div className="big">
+          <div className="space">{timeLeft.minutes}</div>
+        </div>
         <div className="small">минут</div>
       </div>
       <div className="big">:</div>
       <div className="elem">
-        <div className="big">{timeLeft.seconds}</div>
+        <div className="big">
+          <div className="space">{timeLeft.seconds}</div>
+        </div>
         <div className="small">секунд</div>
       </div>
     </div>

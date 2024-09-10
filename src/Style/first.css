@@ -69,6 +69,7 @@ button {
 
 .timer {
   display: flex;
+  justify-content: center; /* Center the entire timer */
   margin-top: 200px;
 }
 
@@ -76,21 +77,22 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .big {
   color: #fff;
-  font-family: "Yeseva One";
+  font-family: "Yeseva One", sans-serif;
   font-size: 32px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  letter-spacing: 10.88px;
+  letter-spacing: 11px;
 }
 
 .small {
   color: #fff;
-  font-family: "Yeseva One";
+  font-family: "Yeseva One", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
