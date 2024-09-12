@@ -1,19 +1,14 @@
 import React, { useState, useEffect, useRef } from "react";
-import backr from "../Assets/backr.jpg";
 import "../Style/first.css";
 import song from "../Assets/Ainalaiyn.mp3";
 
 export default function Section1() {
   return (
     <div className="section1">
-      <img src={backr} />
-
-      <div className="header-wrapper">
-        <h1>Мадина</h1>
-        <h2>Қыз Ұзату</h2>
-        <PlayPauseButton />
-        <Timer></Timer>
-      </div>
+      <h1>Мадина</h1>
+      <h2>Қыз Ұзату</h2>
+      <PlayPauseButton />
+      <Timer></Timer>
     </div>
   );
 }

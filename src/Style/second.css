@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+.section2 {
+  text-align: center;
+}
+
+.break {
+  margin: 32px 0;
+}
+
+.image {
+  margin-bottom: 32px;
+}
+
+.text p {
+  margin: 0;
+}
+
+.text {
+  color: #000;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.flowers {
+  margin: 16px 0;
+}
+
+.text span {
+  color: #075b62;
+  font-family: "Inter", sans-serif;
+  font-size: 31px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 58px;
+}
