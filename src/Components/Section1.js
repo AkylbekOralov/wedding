@@ -100,28 +100,32 @@ const Timer = () => {
     <div className="timer">
       <div className="elem">
         <div className="big">
-          <div className="space">{timeLeft.days}</div>
+          <div className="space">{Math.floor(timeLeft.days / 10)}</div>{" "}
+          {timeLeft.days - Math.floor(timeLeft.days / 10) * 10}
         </div>
         <div className="small">дней</div>
       </div>
       <div className="big">:</div>
       <div className="elem">
         <div className="big">
-          <div className="space">{timeLeft.hours}</div>
+          <div className="space">{Math.floor(timeLeft.hours / 10)}</div>{" "}
+          {timeLeft.hours - Math.floor(timeLeft.hours / 10) * 10}
         </div>
         <div className="small">часов</div>
       </div>
       <div className="big">:</div>
       <div className="elem">
         <div className="big">
-          <div className="space">{timeLeft.minutes}</div>
+          <div className="space">{Math.floor(timeLeft.minutes / 10)}</div>{" "}
+          {timeLeft.minutes - Math.floor(timeLeft.minutes / 10) * 10}
         </div>
         <div className="small">минут</div>
       </div>
       <div className="big">:</div>
       <div className="elem">
         <div className="big">
-          <div className="space">{timeLeft.seconds}</div>
+          <div className="space">{Math.floor(timeLeft.seconds / 10)}</div>{" "}
+          {timeLeft.seconds - Math.floor(timeLeft.seconds / 10) * 10}
         </div>
         <div className="small">секунд</div>
       </div>

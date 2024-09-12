@@ -71,6 +71,7 @@ button {
   display: flex;
   justify-content: center; /* Center the entire timer */
   margin-top: 200px;
+  gap: 7px;
 }
 
 .elem {
@@ -87,6 +88,11 @@ button {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+
+  display: flex;
+}
+
+.space {
   letter-spacing: 11px;
 }
 
