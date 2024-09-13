@@ -5,19 +5,19 @@
   background-size: cover;
 }
 
-.break {
+.section2 .break {
   margin: 32px 0;
 }
 
-.image {
+.section2 .image {
   margin-bottom: 32px;
 }
 
-.text p {
+.section2 .text p {
   margin: 0;
 }
 
-.text {
+.section2 .text {
   color: #000;
   font-family: "Inter", sans-serif;
   font-size: 18px;
@@ -26,11 +26,11 @@
   line-height: normal;
 }
 
-.flowers {
+.section2 .flowers {
   margin: 16px 0;
 }
 
-.text span {
+.section2 .text span {
   color: #075b62;
   font-family: "Inter", sans-serif;
   font-size: 31px;

@@ -16,13 +16,13 @@
   margin-bottom: 25px;
 }
 
-.imgs {
+.section3 .imgs {
   display: flex;
   justify-content: center;
   gap: 25px;
 }
 
-.date {
+.section3 .date {
   color: #000;
   text-align: center;
   font-family: "Inter", sans-serif;
@@ -34,22 +34,22 @@
   margin: 31px 0 20px 0;
 }
 
-.m {
+.section3 .m {
   margin: 20px 0 31px 0;
 }
 
-.break {
+.section3 .break {
   margin: 32px 0;
 }
 
-.address {
+.section3 .address {
   padding: 16px 0 40px 0;
   background-image: url("../Assets/horses.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.box {
+.section3 .box {
   width: 300px;
   flex-shrink: 0;
   border-radius: 18px;
@@ -63,7 +63,7 @@
   margin-bottom: 20px;
 }
 
-.text,
+.section3 .text,
 .header {
   color: #000;
   text-align: center;
@@ -74,15 +74,15 @@
   line-height: normal;
 }
 
-.header {
+.section3 .header {
   margin-bottom: 30px;
 }
 
-.text {
+.section3 .text {
   margin-bottom: 83px;
 }
 
-.foot {
+.section3 .foot {
   color: #000;
   text-align: center;
   font-family: "Yeseva One";
@@ -92,7 +92,7 @@
   line-height: normal;
 }
 
-.address img {
+.section3 .address img {
   width: 60px;
   height: 60px;
   border-radius: 15px;

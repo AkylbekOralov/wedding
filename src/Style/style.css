@@ -1,9 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
 body {
   margin: 0;
   padding: 0;
 }
 
 .App {
+  min-width: 350px;
   max-width: 450px;
   width: 100%;
   margin: 0;
@@ -14,4 +17,38 @@ body {
 
 .backround {
   background-image: url("../decor/back-img1.jpg");
+}
+
+.backround-2 {
+  background-image: url("../decor/back-img2.jpg");
+}
+
+.footer {
+  background: #000;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.footer p {
+  color: #fff;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  margin: 0;
+  margin-top: 10px;
+}
+
+.icons img {
+  width: 25px;
+  height: 25px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 31px;
 }

@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+.section4 .center {
+  text-align: center;
+}
+
+.section4 .break {
+  margin: 32px 0;
+}
+
+.section4 .header-2 {
+  color: #000;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.section4 .form {
+  padding: 48px 30px;
+}
+
+.section4 .textt {
+  color: #000;
+  font-family: "Inter";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.section4 .name {
+  margin-bottom: 16px;
+}
+
+.section4 .name-input {
+  width: 310px;
+  height: 35px;
+  flex-shrink: 0;
+
+  border-radius: 26px;
+  border: 2px solid rgba(0, 0, 0, 0.55);
+  background: #fff;
+
+  color: #000;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  margin-bottom: 40px;
+  padding-left: 20px;
+}
+
+.section4 .ques {
+  margin-bottom: 20px;
+}
+
+.section4 .option {
+  margin-right: 20px;
+}
+
+.section4 .opt {
+  margin-bottom: 10px;
+}
+
+.section4 .que {
+  margin-top: 40px;
+  margin-bottom: 24px;
+}
+
+.section4 .counter {
+  display: flex;
+  align-items: center;
+}
+
+.section4 .counter button {
+  background: none;
+  border: none;
+  box-shadow: none;
+
+  color: #000;
+  font-family: "Inter";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  margin: 0;
+  padding: 0 13px;
+}
+
+.section4 .counter .textt {
+  display: flex;
+  height: 30px;
+  padding: 4px 21px;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 26px;
+  border: 2px solid rgba(0, 0, 0, 0.55);
+  background: #fff;
+
+  color: rgba(0, 0, 0, 0.45);
+  text-align: center;
+  font-family: "Inter";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.section4 .submit {
+  margin: 0;
+  width: 330px;
+  display: flex;
+  max-width: 330px;
+  height: 39px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+
+  border-radius: 18px;
+  background: #000;
+  box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.61);
+
+  color: #fff;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
