@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap");
+
+.section3 {
+  text-align: center;
+}
+
+.section3 h2 {
+  color: #075b62;
+  font-family: "Inter", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0;
+  margin-bottom: 25px;
+}
+
+.imgs {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.date {
+  color: #000;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+
+  margin: 31px 0 20px 0;
+}
+
+.m {
+  margin: 20px 0 31px 0;
+}
+
+.break {
+  margin: 32px 0;
+}
+
+.address {
+  padding: 16px 0 40px 0;
+  background-image: url("../Assets/horses.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.box {
+  width: 300px;
+  flex-shrink: 0;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.62);
+
+  display: block;
+  margin: auto;
+
+  padding-top: 46px;
+  padding-bottom: 32px;
+  margin-bottom: 20px;
+}
+
+.text,
+.header {
+  color: #000;
+  text-align: center;
+  font-family: "Yeseva One";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.header {
+  margin-bottom: 30px;
+}
+
+.text {
+  margin-bottom: 83px;
+}
+
+.foot {
+  color: #000;
+  text-align: center;
+  font-family: "Yeseva One";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.address img {
+  width: 60px;
+  height: 60px;
+  border-radius: 15px;
+}

@@ -11,3 +11,7 @@ body {
   display: block;
   margin: auto;
 }
+
+.backround {
+  background-image: url("../decor/back-img1.jpg");
+}
